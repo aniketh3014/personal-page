@@ -6,7 +6,7 @@
 }
 
 .mimage{
-    margin-top: 45px;
+    padding-top: 45px;
     display: grid;
     border-radius: 50%;
     place-items: center;
