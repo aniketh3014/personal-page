@@ -1,0 +1,64 @@
+.navbar-brand{
+    color: white;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.mimage{
+    margin-top: 45px;
+    display: grid;
+    border-radius: 50%;
+    place-items: center;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(1, 25, 184), rgba(122, 122, 252, 0.799))
+}
+.centered{
+    text-align: center;
+}
+.buttonposition{
+    position:relative;
+    text-align: center;
+    top: 20px;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-social {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+.btn-primary {
+    color: black;
+    background-color: #007bff;
+}
+.btn-twitter {
+    background-color: white;
+}
+.btn-linkedin {
+    background-color: white;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.btn-github {
+    color:black;
+    background-color: white;
+}
+  
+  
