@@ -23,11 +23,6 @@ body{
 .centered{
     text-align: center;
 }
-.buttonposition{
-    position:relative;
-    text-align: center;
-    top: 20px;
-}
 .social-media {
     display: flex;
     justify-content: center;
