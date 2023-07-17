@@ -14,10 +14,6 @@
 }
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
-}
-body{
     background-image: linear-gradient(rgb(1, 25, 184), rgba(122, 122, 252, 0.799))
 }
 .centered{
