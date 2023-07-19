@@ -13,7 +13,7 @@
 }
 html, body {
     height: 100%;
-    background-image: linear-gradient(rgb(1, 25, 184), rgba(122, 122, 252, 0.799))
+    background-image: linear-gradient(rgb(4, 1, 184), rgba(94, 94, 253, 0.799))
 }
 .centered{
     text-align: center;
@@ -31,12 +31,6 @@ html, body {
 }
 .btn-primary {
     color: black;
-    background-color: #007bff;
-}
-.btn-twitter {
-    background-color: white;
-}
-.btn-linkedin {
     background-color: white;
 }
 .icon {
@@ -46,9 +40,5 @@ html, body {
     max-width: 100%;
     height: auto;
 }
-.btn-github {
-    color:black;
-    background-color: white;
-}
-  
+
   
