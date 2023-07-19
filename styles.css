@@ -40,5 +40,10 @@ html, body {
     max-width: 100%;
     height: auto;
 }
+.btn-long {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
 
   
