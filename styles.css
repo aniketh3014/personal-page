@@ -158,7 +158,8 @@ body{
     display: grid;
     border-radius: 50%;
     place-items: center;
-    
+    max-width: 100%;
+    height:auto;    
 }
 .centered{
     text-align: center;
@@ -187,5 +188,6 @@ body{
 .btn-long {
     width: 400px;
 }
-
-  
+html, body{
+    height: 100%;
+}
