@@ -160,9 +160,6 @@ body{
     place-items: center;
     
 }
-html, body {
-    height: 100%;
-}
 .centered{
     text-align: center;
 }
