@@ -5,11 +5,6 @@
     padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
-}
-
-
 .context {
     width: 100%;
     position: absolute;
@@ -147,19 +142,14 @@ body{
     }
 
 }
-.navbar-brand{
-    color: white;
-}
-.navbar-nav .nav-link{
-    color: white;
-}
-
 .mimage{
     display: grid;
     border-radius: 50%;
     place-items: center;
     max-width: 100%;
-    height:auto;    
+    height:auto;
+    font-size: larger; 
+    font-family:'Times New Roman', Times, serif;   
 }
 .centered{
     text-align: center;
@@ -167,13 +157,13 @@ body{
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .btn-social {
-    padding: 10px 20px;
+    padding: 20px ;
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 25px;
+    border-radius: 35px;
 }
 .btn-primary {
     color: black;
@@ -186,8 +176,10 @@ body{
     height: auto;
 }
 .btn-long {
-    width: 400px;
+    width:700px;
+    max-height: 80px;
 }
 html, body{
     height: 100%;
+    width: 100%;
 }
