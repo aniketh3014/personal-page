@@ -8,7 +8,8 @@
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:50%;
+    transform: translate(-50%);
     
 }
 
@@ -16,6 +17,7 @@
     text-align: center;
     color: #fff;
     font-size: 50px;
+    height:100vh;
 }
 
 
@@ -183,3 +185,28 @@ html, body{
     height: 100%;
     width: 100%;
 }
+@media (max-width: 768px) {
+    .context h1 {
+        font-size: 30px; /* Reduce font size for mobile screens */
+    }
+
+    .circles li {
+        display: none; /* Hide circles for mobile screens to simplify the design */
+    }
+
+    /* You can add more specific styles for mobile screens as needed */
+}
+
+/* Styles specific to PC screens using media query */
+@media (min-width: 769px) {
+    .context h1 {
+        font-size: 50px; /* Revert font size back to the original for PC screens */
+    }
+
+    .circles li {
+        display: block; /* Show circles only for PC screens */
+    }
+
+    /* You can add more specific styles for PC screens as needed */
+}
+
