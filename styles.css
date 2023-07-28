@@ -5,11 +5,15 @@
     padding: 0px;
 }
 
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
 .context {
     width: 100%;
     position: absolute;
-    top:50%;
-    transform: translate(-50%);
+    top:50vh;
     
 }
 
@@ -17,17 +21,14 @@
     text-align: center;
     color: #fff;
     font-size: 50px;
-    height:100vh;
 }
 
 
 .area{
     background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #676ffb, #4e53bd);  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
-    height:100vh;
-    
-   
+    height:100vh;   
 }
 
 .circles{
@@ -144,14 +145,21 @@
     }
 
 }
+.navbar-brand{
+    color: white;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+
 .mimage{
     display: grid;
     border-radius: 50%;
     place-items: center;
-    max-width: 100%;
-    height:auto;
-    font-size: larger; 
-    font-family:'Times New Roman', Times, serif;   
+    
+}
+html, body {
+    height: 100%;
 }
 .centered{
     text-align: center;
@@ -159,13 +167,13 @@
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .btn-social {
-    padding: 20px ;
+    padding: 10px 20px;
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 35px;
+    border-radius: 25px;
 }
 .btn-primary {
     color: black;
@@ -175,38 +183,12 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    max-width: 100%;
     height: auto;
 }
 .btn-long {
-    width:700px;
-    max-height: 80px;
-}
-html, body{
-    height: 100%;
-    width: 100%;
-}
-@media (max-width: 768px) {
-    .context h1 {
-        font-size: 30px; /* Reduce font size for mobile screens */
-    }
-
-    .circles li {
-        display: none; /* Hide circles for mobile screens to simplify the design */
-    }
-
-    /* You can add more specific styles for mobile screens as needed */
+    width: 400px;
+    max-height: 55px;
 }
 
-/* Styles specific to PC screens using media query */
-@media (min-width: 769px) {
-    .context h1 {
-        font-size: 50px; /* Revert font size back to the original for PC screens */
-    }
-
-    .circles li {
-        display: block; /* Show circles only for PC screens */
-    }
-
-    /* You can add more specific styles for PC screens as needed */
-}
-
+  
