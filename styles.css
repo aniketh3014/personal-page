@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -28,7 +27,10 @@ body{
     background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
-    height:100vh;   
+    min-height:100vh; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 .circles{
@@ -145,26 +147,22 @@ body{
     }
 
 }
-#wrapper {width:95%;  margin: 0 auto; }
-@media (min-width: 576px) {
-    
-    @media (min-width: 768px) {
-    
-    #wrapper {width:90%;  margin: 0 auto; }
-    
-    #content {width:70%; float:left; }
-    // Large devices (desktops, 992px and up)
+/* Mobile styles */
+@media (max-width: 768px) {
+    .context {
+        top: 40vh;
+    }
+    .area{
+        min-height: 80vh;
+    }
+    .context h1 {
+        font-size: 36px;
+    }
 
-@media (min-width: 992px) { ... }
-
+    .area {
+        height: 80vh;
+    }
 }
-
-@media (min-width: 1200px) {
-
-#wrapper {width:90%;  margin: 0 auto; }
-}
-}
-
 .mimage{
     display: grid;
     border-radius: 50%;
@@ -178,13 +176,15 @@ body{
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .btn-social {
     padding:15px 50px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
+    width: 100%;
+    max-width: 500px;
 }
 .btn-primary {
     color: black;
@@ -197,9 +197,27 @@ body{
     max-width: 100%;
     height: auto;
 }
-.btn-long {
-    width: 75%;
-    height:90%;
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .btn-social {
+        padding: 4px 12px; /* Adjust padding for mobile devices */
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .btn-social {
+        padding: 6px 14px; /* Adjust padding for tablets */
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    .btn-social {
+        padding: 8px 16px; 
+        
+    }
 }
 
   
