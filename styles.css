@@ -145,12 +145,6 @@ body{
     }
 
 }
-.navbar-brand{
-    color: white;
-}
-.navbar-nav .nav-link{
-    color: white;
-}
 
 .mimage{
     display: grid;
@@ -167,10 +161,10 @@ html, body {
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .btn-social {
-    padding: 10px 20px;
+    padding:15px 50px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
@@ -187,8 +181,8 @@ html, body {
     height: auto;
 }
 .btn-long {
-    width: 400px;
-    max-height: 55px;
+    width: 60%;
+    height:70px;
 }
 
   
