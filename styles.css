@@ -145,6 +145,25 @@ body{
     }
 
 }
+#wrapper {width:95%;  margin: 0 auto; }
+@media (min-width: 576px) {
+    
+    @media (min-width: 768px) {
+    
+    #wrapper {width:90%;  margin: 0 auto; }
+    
+    #content {width:70%; float:left; }
+    // Large devices (desktops, 992px and up)
+
+@media (min-width: 992px) { ... }
+
+}
+
+@media (min-width: 1200px) {
+
+#wrapper {width:90%;  margin: 0 auto; }
+}
+}
 
 .mimage{
     display: grid;
@@ -152,9 +171,7 @@ body{
     place-items: center;
     
 }
-html, body {
-    height: 100%;
-}
+
 .centered{
     text-align: center;
 }
@@ -181,7 +198,7 @@ html, body {
     height: auto;
 }
 .btn-long {
-    width: 60%;
+    width: 75%;
     height:90%;
 }
 
