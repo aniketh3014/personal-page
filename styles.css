@@ -208,15 +208,18 @@ body{
 /* Desktop styles */
 @media (min-width: 1025px) {
     .btn-social {
-        padding: 1% 2.5%;
+        padding: 1% 2%;
         width: 50%;
         max-width:55%;
         margin-top: 1%; 
         max-height:100%;
     }
     .mimage{
-        margin-top: 20px;
+        margin-top: 1.25%;
     }
+}
+a {
+    text-decoration: none;
 }
 
 
