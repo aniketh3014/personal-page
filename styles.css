@@ -153,14 +153,14 @@ body{
         top: 40vh;
     }
     .area{
-        min-height: 80vh;
+        min-height: 100vh;
     }
     .context h1 {
         font-size: 36px;
     }
 
     .area {
-        height: 80vh;
+        height: 100vh;
     }
 }
 .mimage{
@@ -176,15 +176,13 @@ body{
 .social-media {
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 2%;
 }
 .btn-social {
-    padding:15px 50px;
+    padding:4% 6%;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
-    width: 100%;
-    max-width: 500px;
 }
 .btn-primary {
     color: black;
@@ -201,21 +199,27 @@ body{
 /* Mobile styles */
 @media (max-width: 768px) {
     .btn-social {
-        padding: 4px 12px; /* Adjust padding for mobile devices */
+        padding: 1.5% 3%;
+        width: 75%;
+        max-width:80%;
     }
 }
 
 /* Tablet styles */
 @media (min-width: 769px) and (max-width: 1024px) {
     .btn-social {
-        padding: 6px 14px; /* Adjust padding for tablets */
+        padding: 0.5% 1%;
+        width: 60%;
+        max-width:70%;
     }
 }
 
 /* Desktop styles */
 @media (min-width: 1025px) {
     .btn-social {
-        padding: 8px 16px; 
+        padding: 0.5% 1%;
+        width: 45%;
+        max-width:50%; 
         
     }
 }
