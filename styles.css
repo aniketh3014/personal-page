@@ -200,8 +200,8 @@ body{
 @media (max-width: 768px) {
     .btn-social {
         padding: 1.5% 3%;
-        width: 75%;
-        max-width:80%;
+        width: 80%;
+        max-width:90%;
     }
 }
 
