@@ -190,6 +190,9 @@ body{
     .area {
         height: 100%;
    }
+   .mimage{
+    margin-top: 2%;
+   }
 }
 
 /* Tablet styles */
@@ -201,6 +204,9 @@ body{
         margin-top: 2%; 
         max-height:100%;
     }
+    .mimage{
+        margin-top: 2%;
+    }
 }
 
 /* Desktop styles */
@@ -211,6 +217,9 @@ body{
         max-width:55%;
         margin-top: 1%; 
         max-height:100%;
+    }
+    .mimage{
+        margin-top: 20px;
     }
 }
 
