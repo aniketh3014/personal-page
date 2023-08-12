@@ -20,7 +20,7 @@
 
 .area{
     background: #0a1c55;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #3a3fa4);  
+    background: -webkit-linear-gradient(to left, #5d5dc3, #3a3fa4);
     width: 100%;
     min-height:100%; 
     display: flex;
@@ -154,13 +154,12 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .btn-social {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 50px;
+    border: 1px solid #1a246d;
+    border-radius: 100px;
 }
 .btn-primary {
-    color: black;
-    background-color: white;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .icon {
     width: 40px;
@@ -168,6 +167,12 @@
     border-radius: 50%;
     max-width: 100%;
     height: auto;
+}
+.zoom{
+    transition: transform .1s;
+}
+.zoom:hover{
+    transform: scale(1.05);
 }
 
 /* Mobile styles */
