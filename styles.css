@@ -173,7 +173,7 @@
 /* Mobile styles */
 @media (max-width: 768px) {
     .btn-social {
-        padding: 1.5% 3%;
+        padding: 1.5% 3.5%;
         width: 85%;
         max-width:90%;
         margin-top: 3%; 
