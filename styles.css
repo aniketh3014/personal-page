@@ -176,7 +176,7 @@
 }
 
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     .btn-social {
         padding: 1.5% 3.5%;
         width: 85%;
@@ -193,7 +193,7 @@
 }
 
 /* Tablet styles */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 869px) and (max-width: 1024px) {
     .btn-social {
         padding: 1% 2%;
         width: 60%;
