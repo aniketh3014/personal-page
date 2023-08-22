@@ -19,8 +19,8 @@
 
 
 .area{
-    background: #0a1c55;  
-    background: -webkit-linear-gradient(to left, #5d5dc3, #3a3fa4);
+    background: #2450e1;  
+    background: -webkit-linear-gradient(to left, #5f0c12, #640c25);
     width: 100%;
     min-height:100%; 
     display: flex;
@@ -43,7 +43,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.195);
+    background: rgba(219, 222, 243, 0.673);
     animation: animate 25s linear infinite;
     bottom: -150px;
     
@@ -151,11 +151,11 @@
 .social-media {
     display: flex;
     justify-content: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:sans-serif;
 }
 .btn-social {
     border: 1px solid #1a246d;
-    border-radius: 100px;
+    border-radius: 30px;
 }
 .btn-primary {
     color: rgb(0, 0, 0);
@@ -164,12 +164,12 @@
 .icon {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius:50;
     max-width: 100%;
     height: auto;
 }
 .zoom{
-    transition: transform .1s;
+    transition: transform .2s;
 }
 .zoom:hover{
     transform: scale(1.05);
@@ -179,8 +179,8 @@
 @media (max-width: 868px) {
     .btn-social {
         padding: 1.5% 3.5%;
-        width: 85%;
-        max-width:90%;
+        width: 89%;
+        max-width:93%;
         margin-top: 3%; 
         max-height:100%;
     }
