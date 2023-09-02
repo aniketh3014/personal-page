@@ -151,7 +151,6 @@
 .social-media {
     display: flex;
     justify-content: center;
-    font-family:sans-serif;
 }
 .btn-social {
     border-radius: 30px;
