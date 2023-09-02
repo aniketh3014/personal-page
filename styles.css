@@ -19,7 +19,7 @@
 
 
 .area{
-    background: #344ee3;  
+    background: #4b66fc;  
     background: -webkit-linear-gradient(to left, #5f0c12, #640c25);
     width: 100%;
     min-height:100%; 
@@ -180,7 +180,7 @@
         padding: 2% 4.3%;
         width: 89%;
         max-width:93%;
-        margin-top: 3%; 
+        margin-top: 2.5%; 
         max-height:100%;
     }
     .area {
@@ -197,7 +197,7 @@
         padding: 1% 2%;
         width: 60%;
         max-width:70%;
-        margin-top: 2%; 
+        margin-top: 2.2%; 
         max-height:100%;
     }
     .mimage{
